@@ -33,4 +33,4 @@ for ax in axs:
 plt.show()
 
 # Save the figure to eps
-fig.savefig('ex1.eps', format='eps')
+fig.savefig('ex1.pdf', format='pdf')

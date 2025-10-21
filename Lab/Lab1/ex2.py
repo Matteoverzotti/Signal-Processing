@@ -62,4 +62,4 @@ ax_2d_bottom.axis('off')
 
 # Save the figure to eps
 plt.show()
-fig.savefig('ex1.eps', format='eps')
+fig.savefig('ex2.pdf', format='pdf')
