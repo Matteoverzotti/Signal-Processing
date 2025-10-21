@@ -29,6 +29,6 @@ axs[0].plot(t, x_t_4)
 
 axs[1].plot(t, x_t_1 + gamma * z)
 axs[1].plot(t, x_t_1)
-plt.show()
+# plt.show()
 
 plt.savefig('ex2.pdf', format='pdf')
