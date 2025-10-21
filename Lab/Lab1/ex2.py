@@ -32,14 +32,14 @@ x_t = np.sin(2 * np.pi * f_signal * t)
 axs[1].plot(t, x_t)
 
 # c) Sawtooth wave
-f_signal = 400  # Hz
+f_signal = 240  # Hz
 t = np.linspace(0, 0.03, 1600)
 x_t = 2 * (t * f_signal - np.floor(0.5 + t * f_signal))
 
 axs[2].plot(t, x_t)
 
 # d) Square wave
-f_signal = 400  # Hz
+f_signal = 300  # Hz
 t = np.linspace(0, 0.03, 1600)
 x_t = np.sign(np.sin(2 * np.pi * f_signal * t))
 
@@ -60,6 +60,6 @@ im2 = ax_2d_bottom.imshow(choice_2d_signal, cmap='viridis', interpolation='neare
 ax_2d_top.axis('off')
 ax_2d_bottom.axis('off')
 
-# Save the figure to eps
+# Save the figure to pdf
 plt.show()
 fig.savefig('ex2.pdf', format='pdf')
